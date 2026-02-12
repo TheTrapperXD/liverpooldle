@@ -58,7 +58,6 @@ function App() {
 
   // Helper: Compare guess to solution
   const formatGuess = () => {
-    console.log("Formatting guess:", currentGuess) // DEBUG
     let solutionArray = solution.guessing_name.split('')
     let formattedGuess = currentGuess.split('').map((l) => {
       return { key: l, color: 'grey' }
@@ -113,13 +112,11 @@ function App() {
 
         // STOP if game is lost (Already have 6 guesses)
         if (guesses.length >= 6) {
-          console.log("Game Over! No more guesses.")
           return
         }
 
         // STOP if word is too short
         if (currentGuess.length !== solution.guessing_name.length) {
-          console.log("Word too short!")
           return
         }
         
@@ -173,6 +170,12 @@ function App() {
     <div className="game-container">
       <h1 className="game-title">Liverpooldle</h1>
       
+      <Grid 
+        currentGuess={currentGuess} 
+        guesses={guesses} 
+        solutionLength={solution.guessing_name.length} 
+      />
+      
       {/* HINT SECTION */}
       <div className="hint-container">
         {!hint && !isCorrect && (
@@ -182,11 +185,6 @@ function App() {
         )}
         {hint && <p className="hint-text">{hint}</p>}
       </div>
-      <Grid 
-        currentGuess={currentGuess} 
-        guesses={guesses} 
-        solutionLength={solution.guessing_name.length} 
-      />
       {/* WIN MODAL */}
       {isCorrect && (
         <div className="modal">

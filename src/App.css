@@ -26,12 +26,6 @@ body {
   margin: 0 auto;
 }
 
-h1 {
-  border-bottom: 1px solid #3a3a3c;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
-}
-
 /* THE GRID */
 .row {
   display: flex;
@@ -81,13 +75,27 @@ h1 {
   100% { transform: scale(1); }
 }
 .modal {
-  background: #c8102e; /* Liverpool Red */
+  position: fixed;
+  /* Centering Logic */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  /* Box Styling */
+  width: 90%;
+  max-width: 450px;
+  background-color: #e31b23; /* LFC Red */
   color: white;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  
+  /* Internal Alignment */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  animation: pop 0.5s;
+  z-index: 100; /* Ensures it sits above everything */
 }
 
 button {
@@ -102,13 +110,29 @@ button {
   font-weight: bold;
 }
 /* HINT STYLES */
+/* EQUAL DISTANCE HINT CONTAINER */
 .hint-container {
-  height: 40px; /* Keeps space so grid doesn't jump */
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 45px;
+  margin-top: 30px; /* This is the Bottom Gap (Matches the 30px above) */
+  margin-bottom: 40px; 
 }
 
+h1.game-title {
+  margin: 0 !important;
+  padding-top: 40px; /* Space from the very top of the screen */
+  padding-bottom: 30px; /* This is the Top Gap */
+}
+/* Ensure the grid doesn't bring its own top margin */
+.grid {
+  margin: 0 !important;
+}
+
+/* KEEP YOUR PREFERRED BUTTON STYLE */
 .hint-btn {
-  background: #00985f; /* Liverpool Green (Away Kit style) */
+  background: #00985f; 
   color: white;
   border: none;
   padding: 8px 16px;
