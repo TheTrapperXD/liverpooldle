@@ -6,5 +6,1828 @@
     "nationality": "England",
     "position": "Midfielder",
     "first_season": "1998"
+  },
+  {
+    "id": "002",
+    "full_name": "Mohamed Salah",
+    "guessing_name": "SALAH",
+    "nationality": "Egypt",
+    "position": "Forward",
+    "first_season": "2017"
+  },
+  {
+    "id": "003",
+    "full_name": "Alisson Becker",
+    "guessing_name": "ALISSON",
+    "nationality": "Brazil",
+    "position": "Goalkeeper",
+    "first_season": "2018"
+  },
+  {
+    "id": "004",
+    "full_name": "Virgil van Dijk",
+    "guessing_name": "VANDIJK",
+    "nationality": "Netherlands",
+    "position": "Defender",
+    "first_season": "2018"
+  },
+  {
+    "id": "005",
+    "full_name": "Trent Alexander-Arnold",
+    "guessing_name": "ARNOLD",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2016"
+  },
+  {
+    "id": "006",
+    "full_name": "Andy Robertson",
+    "guessing_name": "ROBERTSON",
+    "nationality": "Scotland",
+    "position": "Defender",
+    "first_season": "2017"
+  },
+  {
+    "id": "007",
+    "full_name": "Roberto Firmino",
+    "guessing_name": "FIRMINO",
+    "nationality": "Brazil",
+    "position": "Forward",
+    "first_season": "2015"
+  },
+  {
+    "id": "008",
+    "full_name": "Sadio Mane",
+    "guessing_name": "MANE",
+    "nationality": "Senegal",
+    "position": "Forward",
+    "first_season": "2016"
+  },
+  {
+    "id": "009",
+    "full_name": "Jordan Henderson",
+    "guessing_name": "HENDERSON",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2011"
+  },
+  {
+    "id": "010",
+    "full_name": "Luis Suarez",
+    "guessing_name": "SUAREZ",
+    "nationality": "Uruguay",
+    "position": "Forward",
+    "first_season": "2011"
+  },
+  {
+    "id": "011",
+    "full_name": "Fernando Torres",
+    "guessing_name": "TORRES",
+    "nationality": "Spain",
+    "position": "Forward",
+    "first_season": "2007"
+  },
+  {
+    "id": "012",
+    "full_name": "Xabi Alonso",
+    "guessing_name": "ALONSO",
+    "nationality": "Spain",
+    "position": "Midfielder",
+    "first_season": "2004"
+  },
+  {
+    "id": "013",
+    "full_name": "Jamie Carragher",
+    "guessing_name": "CARRAGHER",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "1996"
+  },
+  {
+    "id": "014",
+    "full_name": "Diogo Jota",
+    "guessing_name": "JOTA",
+    "nationality": "Portugal",
+    "position": "Forward",
+    "first_season": "2020"
+  },
+  {
+    "id": "015",
+    "full_name": "Luis Diaz",
+    "guessing_name": "DIAZ",
+    "nationality": "Colombia",
+    "position": "Forward",
+    "first_season": "2022"
+  },
+  {
+    "id": "016",
+    "full_name": "Dominik Szoboszlai",
+    "guessing_name": "SZOBOSZLAI",
+    "nationality": "Hungary",
+    "position": "Midfielder",
+    "first_season": "2023"
+  },
+  {
+    "id": "017",
+    "full_name": "Alexis Mac Allister",
+    "guessing_name": "MACALLISTER",
+    "nationality": "Argentina",
+    "position": "Midfielder",
+    "first_season": "2023"
+  },
+  {
+    "id": "018",
+    "full_name": "Darwin Nunez",
+    "guessing_name": "NUNEZ",
+    "nationality": "Uruguay",
+    "position": "Forward",
+    "first_season": "2022"
+  },
+  {
+    "id": "019",
+    "full_name": "Cody Gakpo",
+    "guessing_name": "GAKPO",
+    "nationality": "Netherlands",
+    "position": "Forward",
+    "first_season": "2023"
+  },
+  {
+    "id": "020",
+    "full_name": "Wataru Endo",
+    "guessing_name": "ENDO",
+    "nationality": "Japan",
+    "position": "Midfielder",
+    "first_season": "2023"
+  },
+  {
+    "id": "021",
+    "full_name": "Curtis Jones",
+    "guessing_name": "JONES",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2019"
+  },
+  {
+    "id": "022",
+    "full_name": "Harvey Elliott",
+    "guessing_name": "ELLIOTT",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2019"
+  },
+  {
+    "id": "023",
+    "full_name": "Ibrahima Konate",
+    "guessing_name": "KONATE",
+    "nationality": "France",
+    "position": "Defender",
+    "first_season": "2021"
+  },
+  {
+    "id": "024",
+    "full_name": "Joel Matip",
+    "guessing_name": "MATIP",
+    "nationality": "Cameroon",
+    "position": "Defender",
+    "first_season": "2016"
+  },
+  {
+    "id": "025",
+    "full_name": "James Milner",
+    "guessing_name": "MILNER",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2015"
+  },
+  {
+    "id": "026",
+    "full_name": "Fabinho",
+    "guessing_name": "FABINHO",
+    "nationality": "Brazil",
+    "position": "Midfielder",
+    "first_season": "2018"
+  },
+  {
+    "id": "027",
+    "full_name": "Gini Wijnaldum",
+    "guessing_name": "WIJNALDUM",
+    "nationality": "Netherlands",
+    "position": "Midfielder",
+    "first_season": "2016"
+  },
+  {
+    "id": "028",
+    "full_name": "Divock Origi",
+    "guessing_name": "ORIGI",
+    "nationality": "Belgium",
+    "position": "Forward",
+    "first_season": "2014"
+  },
+  {
+    "id": "029",
+    "full_name": "Robbie Fowler",
+    "guessing_name": "FOWLER",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "1993"
+  },
+  {
+    "id": "030",
+    "full_name": "Kenny Dalglish",
+    "guessing_name": "DALGLISH",
+    "nationality": "Scotland",
+    "position": "Forward",
+    "first_season": "1977"
+  },
+  {
+    "id": "031",
+    "full_name": "Ryan Gravenberch",
+    "guessing_name": "GRAVENBERCH",
+    "nationality": "Netherlands",
+    "position": "Midfielder",
+    "first_season": "2023"
+  },
+  {
+    "id": "032",
+    "full_name": "Conor Bradley",
+    "guessing_name": "BRADLEY",
+    "nationality": "Northern Ireland",
+    "position": "Defender",
+    "first_season": "2021"
+  },
+  {
+    "id": "033",
+    "full_name": "Jarell Quansah",
+    "guessing_name": "QUANSAH",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2023"
+  },
+  {
+    "id": "034",
+    "full_name": "Kostas Tsimikas",
+    "guessing_name": "TSIMIKAS",
+    "nationality": "Greece",
+    "position": "Defender",
+    "first_season": "2020"
+  },
+  {
+    "id": "035",
+    "full_name": "Caoimhin Kelleher",
+    "guessing_name": "KELLEHER",
+    "nationality": "Ireland",
+    "position": "Goalkeeper",
+    "first_season": "2019"
+  },
+  {
+    "id": "036",
+    "full_name": "Alex Oxlade-Chamberlain",
+    "guessing_name": "CHAMBERLAIN",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2017"
+  },
+  {
+    "id": "037",
+    "full_name": "Naby Keita",
+    "guessing_name": "KEITA",
+    "nationality": "Guinea",
+    "position": "Midfielder",
+    "first_season": "2018"
+  },
+  {
+    "id": "038",
+    "full_name": "Takumi Minamino",
+    "guessing_name": "MINAMINO",
+    "nationality": "Japan",
+    "position": "Forward",
+    "first_season": "2020"
+  },
+  {
+    "id": "039",
+    "full_name": "Xherdan Shaqiri",
+    "guessing_name": "SHAQIRI",
+    "nationality": "Switzerland",
+    "position": "Forward",
+    "first_season": "2018"
+  },
+  {
+    "id": "040",
+    "full_name": "Adam Lallana",
+    "guessing_name": "LALLANA",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2014"
+  },
+  {
+    "id": "041",
+    "full_name": "Dejan Lovren",
+    "guessing_name": "LOVREN",
+    "nationality": "Croatia",
+    "position": "Defender",
+    "first_season": "2014"
+  },
+  {
+    "id": "042",
+    "full_name": "Simon Mignolet",
+    "guessing_name": "MIGNOLET",
+    "nationality": "Belgium",
+    "position": "Goalkeeper",
+    "first_season": "2013"
+  },
+  {
+    "id": "043",
+    "full_name": "Daniel Sturridge",
+    "guessing_name": "STURRIDGE",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2013"
+  },
+  {
+    "id": "044",
+    "full_name": "Philippe Coutinho",
+    "guessing_name": "COUTINHO",
+    "nationality": "Brazil",
+    "position": "Midfielder",
+    "first_season": "2013"
+  },
+  {
+    "id": "045",
+    "full_name": "Raheem Sterling",
+    "guessing_name": "STERLING",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2012"
+  },
+  {
+    "id": "046",
+    "full_name": "Martin Skrtel",
+    "guessing_name": "SKRTEL",
+    "nationality": "Slovakia",
+    "position": "Defender",
+    "first_season": "2008"
+  },
+  {
+    "id": "047",
+    "full_name": "Daniel Agger",
+    "guessing_name": "AGGER",
+    "nationality": "Denmark",
+    "position": "Defender",
+    "first_season": "2006"
+  },
+  {
+    "id": "048",
+    "full_name": "Lucas Leiva",
+    "guessing_name": "LUCAS",
+    "nationality": "Brazil",
+    "position": "Midfielder",
+    "first_season": "2007"
+  },
+  {
+    "id": "049",
+    "full_name": "Pepe Reina",
+    "guessing_name": "REINA",
+    "nationality": "Spain",
+    "position": "Goalkeeper",
+    "first_season": "2005"
+  },
+  {
+    "id": "050",
+    "full_name": "John Arne Riise",
+    "guessing_name": "RIISE",
+    "nationality": "Norway",
+    "position": "Defender",
+    "first_season": "2001"
+  },
+  {
+    "id": "051",
+    "full_name": "Sami Hyypia",
+    "guessing_name": "HYYPIA",
+    "nationality": "Finland",
+    "position": "Defender",
+    "first_season": "1999"
+  },
+  {
+    "id": "052",
+    "full_name": "Javier Mascherano",
+    "guessing_name": "MASCHERANO",
+    "nationality": "Argentina",
+    "position": "Midfielder",
+    "first_season": "2007"
+  },
+  {
+    "id": "053",
+    "full_name": "Dirk Kuyt",
+    "guessing_name": "KUYT",
+    "nationality": "Netherlands",
+    "position": "Forward",
+    "first_season": "2006"
+  },
+  {
+    "id": "054",
+    "full_name": "Peter Crouch",
+    "guessing_name": "CROUCH",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2005"
+  },
+  {
+    "id": "055",
+    "full_name": "Luis Garcia",
+    "guessing_name": "GARCIA",
+    "nationality": "Spain",
+    "position": "Midfielder",
+    "first_season": "2004"
+  },
+  {
+    "id": "056",
+    "full_name": "Michael Owen",
+    "guessing_name": "OWEN",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "1997"
+  },
+  {
+    "id": "057",
+    "full_name": "Steve McManaman",
+    "guessing_name": "MCMANAMAN",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1990"
+  },
+  {
+    "id": "058",
+    "full_name": "Ian Rush",
+    "guessing_name": "RUSH",
+    "nationality": "Wales",
+    "position": "Forward",
+    "first_season": "1980"
+  },
+  {
+    "id": "059",
+    "full_name": "John Barnes",
+    "guessing_name": "BARNES",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1987"
+  },
+  {
+    "id": "060",
+    "full_name": "Graeme Souness",
+    "guessing_name": "SOUNESS",
+    "nationality": "Scotland",
+    "position": "Midfielder",
+    "first_season": "1978"
+  },
+  {
+    "id": "061",
+    "full_name": "Ray Clemence",
+    "guessing_name": "CLEMENCE",
+    "nationality": "England",
+    "position": "Goalkeeper",
+    "first_season": "1967"
+  },
+  {
+    "id": "062",
+    "full_name": "Phil Neal",
+    "guessing_name": "NEAL",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "1974"
+  },
+  {
+    "id": "063",
+    "full_name": "Alan Hansen",
+    "guessing_name": "HANSEN",
+    "nationality": "Scotland",
+    "position": "Defender",
+    "first_season": "1977"
+  },
+  {
+    "id": "064",
+    "full_name": "Mark Lawrenson",
+    "guessing_name": "LAWRENSON",
+    "nationality": "Ireland",
+    "position": "Defender",
+    "first_season": "1981"
+  },
+  {
+    "id": "065",
+    "full_name": "Bruce Grobbelaar",
+    "guessing_name": "GROBBELAAR",
+    "nationality": "Zimbabwe",
+    "position": "Goalkeeper",
+    "first_season": "1981"
+  },
+  {
+    "id": "066",
+    "full_name": "Steve Nicol",
+    "guessing_name": "NICOL",
+    "nationality": "Scotland",
+    "position": "Defender",
+    "first_season": "1981"
+  },
+  {
+    "id": "067",
+    "full_name": "Ronnie Whelan",
+    "guessing_name": "WHELAN",
+    "nationality": "Ireland",
+    "position": "Midfielder",
+    "first_season": "1979"
+  },
+  {
+    "id": "068",
+    "full_name": "Jan Molby",
+    "guessing_name": "MOLBY",
+    "nationality": "Denmark",
+    "position": "Midfielder",
+    "first_season": "1984"
+  },
+  {
+    "id": "069",
+    "full_name": "Kevin Keegan",
+    "guessing_name": "KEEGAN",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "1971"
+  },
+  {
+    "id": "070",
+    "full_name": "Terry McDermott",
+    "guessing_name": "MCDERMOTT",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1974"
+  },
+  {
+    "id": "071",
+    "full_name": "Dietmar Hamann",
+    "guessing_name": "HAMANN",
+    "nationality": "Germany",
+    "position": "Midfielder",
+    "first_season": "1999"
+  },
+  {
+    "id": "072",
+    "full_name": "Vladimir Smicer",
+    "guessing_name": "SMICER",
+    "nationality": "Czech Republic",
+    "position": "Midfielder",
+    "first_season": "1999"
+  },
+  {
+    "id": "073",
+    "full_name": "Jerzy Dudek",
+    "guessing_name": "DUDEK",
+    "nationality": "Poland",
+    "position": "Goalkeeper",
+    "first_season": "2001"
+  },
+  {
+    "id": "074",
+    "full_name": "Milan Baros",
+    "guessing_name": "BAROS",
+    "nationality": "Czech Republic",
+    "position": "Forward",
+    "first_season": "2002"
+  },
+  {
+    "id": "075",
+    "full_name": "Djibril Cisse",
+    "guessing_name": "CISSE",
+    "nationality": "France",
+    "position": "Forward",
+    "first_season": "2004"
+  },
+  {
+    "id": "076",
+    "full_name": "Harry Kewell",
+    "guessing_name": "KEWELL",
+    "nationality": "Australia",
+    "position": "Forward",
+    "first_season": "2003"
+  },
+  {
+    "id": "077",
+    "full_name": "Stephane Henchoz",
+    "guessing_name": "HENCHOZ",
+    "nationality": "Switzerland",
+    "position": "Defender",
+    "first_season": "1999"
+  },
+  {
+    "id": "078",
+    "full_name": "Patrik Berger",
+    "guessing_name": "BERGER",
+    "nationality": "Czech Republic",
+    "position": "Midfielder",
+    "first_season": "1996"
+  },
+  {
+    "id": "079",
+    "full_name": "Emile Heskey",
+    "guessing_name": "HESKEY",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2000"
+  },
+  {
+    "id": "080",
+    "full_name": "Danny Murphy",
+    "guessing_name": "MURPHY",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1997"
+  },
+  {
+    "id": "081",
+    "full_name": "Gary McAllister",
+    "guessing_name": "MCALLISTER",
+    "nationality": "Scotland",
+    "position": "Midfielder",
+    "first_season": "2000"
+  },
+  {
+    "id": "082",
+    "full_name": "Joe Gomez",
+    "guessing_name": "GOMEZ",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2015"
+  },
+  {
+    "id": "083",
+    "full_name": "Alberto Moreno",
+    "guessing_name": "MORENO",
+    "nationality": "Spain",
+    "position": "Defender",
+    "first_season": "2014"
+  },
+  {
+    "id": "084",
+    "full_name": "Emre Can",
+    "guessing_name": "CAN",
+    "nationality": "Germany",
+    "position": "Midfielder",
+    "first_season": "2014"
+  },
+  {
+    "id": "085",
+    "full_name": "Kolo Toure",
+    "guessing_name": "TOURE",
+    "nationality": "Ivory Coast",
+    "position": "Defender",
+    "first_season": "2013"
+  },
+  {
+    "id": "086",
+    "full_name": "Mamadou Sakho",
+    "guessing_name": "SAKHO",
+    "nationality": "France",
+    "position": "Defender",
+    "first_season": "2013"
+  },
+  {
+    "id": "087",
+    "full_name": "Nathaniel Clyne",
+    "guessing_name": "CLYNE",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2015"
+  },
+  {
+    "id": "088",
+    "full_name": "Ryan Babel",
+    "guessing_name": "BABEL",
+    "nationality": "Netherlands",
+    "position": "Forward",
+    "first_season": "2007"
+  },
+  {
+    "id": "089",
+    "full_name": "Yossi Benayoun",
+    "guessing_name": "BENAYOUN",
+    "nationality": "Israel",
+    "position": "Midfielder",
+    "first_season": "2007"
+  },
+  {
+    "id": "090",
+    "full_name": "Glen Johnson",
+    "guessing_name": "JOHNSON",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2009"
+  },
+  {
+    "id": "091",
+    "full_name": "Federico Chiesa",
+    "guessing_name": "CHIESA",
+    "nationality": "Italy",
+    "position": "Forward",
+    "first_season": "2024"
+  },
+  {
+    "id": "092",
+    "full_name": "Stefan Bajcetic",
+    "guessing_name": "BAJCETIC",
+    "nationality": "Spain",
+    "position": "Midfielder",
+    "first_season": "2022"
+  },
+  {
+    "id": "093",
+    "full_name": "Nat Phillips",
+    "guessing_name": "PHILLIPS",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2019"
+  },
+  {
+    "id": "094",
+    "full_name": "Fabio Carvalho",
+    "guessing_name": "CARVALHO",
+    "nationality": "Portugal",
+    "position": "Midfielder",
+    "first_season": "2022"
+  },
+  {
+    "id": "095",
+    "full_name": "Ben Doak",
+    "guessing_name": "DOAK",
+    "nationality": "Scotland",
+    "position": "Forward",
+    "first_season": "2022"
+  },
+  {
+    "id": "096",
+    "full_name": "Alvaro Arbeloa",
+    "guessing_name": "ARBELOA",
+    "nationality": "Spain",
+    "position": "Defender",
+    "first_season": "2007"
+  },
+  {
+    "id": "097",
+    "full_name": "Fabio Aurelio",
+    "guessing_name": "AURELIO",
+    "nationality": "Brazil",
+    "position": "Defender",
+    "first_season": "2006"
+  },
+  {
+    "id": "098",
+    "full_name": "Mohamed Sissoko",
+    "guessing_name": "SISSOKO",
+    "nationality": "Mali",
+    "position": "Midfielder",
+    "first_season": "2005"
+  },
+  {
+    "id": "099",
+    "full_name": "Jermaine Pennant",
+    "guessing_name": "PENNANT",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2006"
+  },
+  {
+    "id": "100",
+    "full_name": "Boudewijn Zenden",
+    "guessing_name": "ZENDEN",
+    "nationality": "Netherlands",
+    "position": "Midfielder",
+    "first_season": "2005"
+  },
+  {
+    "id": "101",
+    "full_name": "Craig Bellamy",
+    "guessing_name": "BELLAMY",
+    "nationality": "Wales",
+    "position": "Forward",
+    "first_season": "2006"
+  },
+  {
+    "id": "102",
+    "full_name": "Maxi Rodriguez",
+    "guessing_name": "RODRIGUEZ",
+    "nationality": "Argentina",
+    "position": "Midfielder",
+    "first_season": "2010"
+  },
+  {
+    "id": "103",
+    "full_name": "Raul Meireles",
+    "guessing_name": "MEIRELES",
+    "nationality": "Portugal",
+    "position": "Midfielder",
+    "first_season": "2010"
+  },
+  {
+    "id": "104",
+    "full_name": "Joe Allen",
+    "guessing_name": "ALLEN",
+    "nationality": "Wales",
+    "position": "Midfielder",
+    "first_season": "2012"
+  },
+  {
+    "id": "105",
+    "full_name": "Jose Enrique",
+    "guessing_name": "ENRIQUE",
+    "nationality": "Spain",
+    "position": "Defender",
+    "first_season": "2011"
+  },
+  {
+    "id": "106",
+    "full_name": "Stewart Downing",
+    "guessing_name": "DOWNING",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2011"
+  },
+  {
+    "id": "107",
+    "full_name": "Andy Carroll",
+    "guessing_name": "CARROLL",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2011"
+  },
+  {
+    "id": "108",
+    "full_name": "Jamie Redknapp",
+    "guessing_name": "REDKNAPP",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1991"
+  },
+  {
+    "id": "109",
+    "full_name": "Stan Collymore",
+    "guessing_name": "COLLYMORE",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "1995"
+  },
+  {
+    "id": "110",
+    "full_name": "Paul Ince",
+    "guessing_name": "INCE",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1997"
+  },
+  {
+    "id": "111",
+    "full_name": "David James",
+    "guessing_name": "JAMES",
+    "nationality": "England",
+    "position": "Goalkeeper",
+    "first_season": "1992"
+  },
+  {
+    "id": "112",
+    "full_name": "Jason McAteer",
+    "guessing_name": "MCATEER",
+    "nationality": "Ireland",
+    "position": "Midfielder",
+    "first_season": "1995"
+  },
+  {
+    "id": "113",
+    "full_name": "Phil Babb",
+    "guessing_name": "BABB",
+    "nationality": "Ireland",
+    "position": "Defender",
+    "first_season": "1994"
+  },
+  {
+    "id": "114",
+    "full_name": "John Aldridge",
+    "guessing_name": "ALDRIDGE",
+    "nationality": "Ireland",
+    "position": "Forward",
+    "first_season": "1987"
+  },
+  {
+    "id": "115",
+    "full_name": "Peter Beardsley",
+    "guessing_name": "BEARDSLEY",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "1987"
+  },
+  {
+    "id": "116",
+    "full_name": "Steve McMahon",
+    "guessing_name": "MCMAHON",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1985"
+  },
+  {
+    "id": "117",
+    "full_name": "Ronnie Rosenthal",
+    "guessing_name": "ROSENTHAL",
+    "nationality": "Israel",
+    "position": "Forward",
+    "first_season": "1990"
+  },
+  {
+    "id": "118",
+    "full_name": "Sander Westerveld",
+    "guessing_name": "WESTERVELD",
+    "nationality": "Netherlands",
+    "position": "Goalkeeper",
+    "first_season": "1999"
+  },
+  {
+    "id": "119",
+    "full_name": "Markus Babbel",
+    "guessing_name": "BABBEL",
+    "nationality": "Germany",
+    "position": "Defender",
+    "first_season": "2000"
+  },
+  {
+    "id": "120",
+    "full_name": "Iago Aspas",
+    "guessing_name": "ASPAS",
+    "nationality": "Spain",
+    "position": "Forward",
+    "first_season": "2013"
+  },
+  {
+    "id": "121",
+    "full_name": "Thiago Alcantara",
+    "guessing_name": "THIAGO",
+    "nationality": "Spain",
+    "position": "Midfielder",
+    "first_season": "2020"
+  },
+  {
+    "id": "122",
+    "full_name": "Adrian",
+    "guessing_name": "ADRIAN",
+    "nationality": "Spain",
+    "position": "Goalkeeper",
+    "first_season": "2019"
+  },
+  {
+    "id": "123",
+    "full_name": "Loris Karius",
+    "guessing_name": "KARIUS",
+    "nationality": "Germany",
+    "position": "Goalkeeper",
+    "first_season": "2016"
+  },
+  {
+    "id": "124",
+    "full_name": "Christian Benteke",
+    "guessing_name": "BENTEKE",
+    "nationality": "Belgium",
+    "position": "Forward",
+    "first_season": "2015"
+  },
+  {
+    "id": "125",
+    "full_name": "Mario Balotelli",
+    "guessing_name": "BALOTELLI",
+    "nationality": "Italy",
+    "position": "Forward",
+    "first_season": "2014"
+  },
+  {
+    "id": "126",
+    "full_name": "Rickie Lambert",
+    "guessing_name": "LAMBERT",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2014"
+  },
+  {
+    "id": "127",
+    "full_name": "Fabio Borini",
+    "guessing_name": "BORINI",
+    "nationality": "Italy",
+    "position": "Forward",
+    "first_season": "2012"
+  },
+  {
+    "id": "128",
+    "full_name": "Dominic Solanke",
+    "guessing_name": "SOLANKE",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2017"
+  },
+  {
+    "id": "129",
+    "full_name": "Danny Ings",
+    "guessing_name": "INGS",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2015"
+  },
+  {
+    "id": "130",
+    "full_name": "Jonjo Shelvey",
+    "guessing_name": "SHELVEY",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2010"
+  },
+  {
+    "id": "131",
+    "full_name": "Jay Spearing",
+    "guessing_name": "SPEARING",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2008"
+  },
+  {
+    "id": "132",
+    "full_name": "Jon Flanagan",
+    "guessing_name": "FLANAGAN",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2010"
+  },
+  {
+    "id": "133",
+    "full_name": "Martin Kelly",
+    "guessing_name": "KELLY",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2008"
+  },
+  {
+    "id": "134",
+    "full_name": "Sebastian Coates",
+    "guessing_name": "COATES",
+    "nationality": "Uruguay",
+    "position": "Defender",
+    "first_season": "2011"
+  },
+  {
+    "id": "135",
+    "full_name": "Suso",
+    "guessing_name": "SUSO",
+    "nationality": "Spain",
+    "position": "Midfielder",
+    "first_season": "2012"
+  },
+  {
+    "id": "136",
+    "full_name": "Jordon Ibe",
+    "guessing_name": "IBE",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2012"
+  },
+  {
+    "id": "137",
+    "full_name": "Andre Wisdom",
+    "guessing_name": "WISDOM",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2012"
+  },
+  {
+    "id": "138",
+    "full_name": "Jack Robinson",
+    "guessing_name": "ROBINSON",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2010"
+  },
+  {
+    "id": "139",
+    "full_name": "Harry Wilson",
+    "guessing_name": "WILSON",
+    "nationality": "Wales",
+    "position": "Midfielder",
+    "first_season": "2017"
+  },
+  {
+    "id": "140",
+    "full_name": "Marko Grujic",
+    "guessing_name": "GRUJIC",
+    "nationality": "Serbia",
+    "position": "Midfielder",
+    "first_season": "2016"
+  },
+  {
+    "id": "141",
+    "full_name": "Rhian Brewster",
+    "guessing_name": "BREWSTER",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2019"
+  },
+  {
+    "id": "142",
+    "full_name": "Ben Woodburn",
+    "guessing_name": "WOODBURN",
+    "nationality": "Wales",
+    "position": "Forward",
+    "first_season": "2016"
+  },
+  {
+    "id": "143",
+    "full_name": "Sheyi Ojo",
+    "guessing_name": "OJO",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2015"
+  },
+  {
+    "id": "144",
+    "full_name": "Neco Williams",
+    "guessing_name": "WILLIAMS",
+    "nationality": "Wales",
+    "position": "Defender",
+    "first_season": "2019"
+  },
+  {
+    "id": "145",
+    "full_name": "Rhys Williams",
+    "guessing_name": "WILLIAMS",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2020"
+  },
+  {
+    "id": "146",
+    "full_name": "Billy Koumetio",
+    "guessing_name": "KOUMETIO",
+    "nationality": "France",
+    "position": "Defender",
+    "first_season": "2020"
+  },
+  {
+    "id": "147",
+    "full_name": "Tyler Morton",
+    "guessing_name": "MORTON",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2021"
+  },
+  {
+    "id": "148",
+    "full_name": "Kaide Gordon",
+    "guessing_name": "GORDON",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2021"
+  },
+  {
+    "id": "149",
+    "full_name": "Owen Beck",
+    "guessing_name": "BECK",
+    "nationality": "Wales",
+    "position": "Defender",
+    "first_season": "2021"
+  },
+  {
+    "id": "150",
+    "full_name": "Luke Chambers",
+    "guessing_name": "CHAMBERS",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2023"
+  },
+  {
+    "id": "151",
+    "full_name": "Paul Konchesky",
+    "guessing_name": "KONCHESKY",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2010"
+  },
+  {
+    "id": "152",
+    "full_name": "Christian Poulsen",
+    "guessing_name": "POULSEN",
+    "nationality": "Denmark",
+    "position": "Midfielder",
+    "first_season": "2010"
+  },
+  {
+    "id": "153",
+    "full_name": "Milan Jovanovic",
+    "guessing_name": "JOVANOVIC",
+    "nationality": "Serbia",
+    "position": "Forward",
+    "first_season": "2010"
+  },
+  {
+    "id": "154",
+    "full_name": "Joe Cole",
+    "guessing_name": "COLE",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2010"
+  },
+  {
+    "id": "155",
+    "full_name": "Sotirios Kyrgiakos",
+    "guessing_name": "KYRGIAKOS",
+    "nationality": "Greece",
+    "position": "Defender",
+    "first_season": "2009"
+  },
+  {
+    "id": "156",
+    "full_name": "Alberto Aquilani",
+    "guessing_name": "AQUILANI",
+    "nationality": "Italy",
+    "position": "Midfielder",
+    "first_season": "2009"
+  },
+  {
+    "id": "157",
+    "full_name": "David Ngog",
+    "guessing_name": "NGOG",
+    "nationality": "France",
+    "position": "Forward",
+    "first_season": "2008"
+  },
+  {
+    "id": "158",
+    "full_name": "Andriy Voronin",
+    "guessing_name": "VORONIN",
+    "nationality": "Ukraine",
+    "position": "Forward",
+    "first_season": "2007"
+  },
+  {
+    "id": "159",
+    "full_name": "Andrea Dossena",
+    "guessing_name": "DOSSENA",
+    "nationality": "Italy",
+    "position": "Defender",
+    "first_season": "2008"
+  },
+  {
+    "id": "160",
+    "full_name": "Emiliano Insua",
+    "guessing_name": "INSUA",
+    "nationality": "Argentina",
+    "position": "Defender",
+    "first_season": "2007"
+  },
+  {
+    "id": "161",
+    "full_name": "Nabil El Zhar",
+    "guessing_name": "ELZHAR",
+    "nationality": "Morocco",
+    "position": "Forward",
+    "first_season": "2006"
+  },
+  {
+    "id": "162",
+    "full_name": "Philipp Degen",
+    "guessing_name": "DEGEN",
+    "nationality": "Switzerland",
+    "position": "Defender",
+    "first_season": "2008"
+  },
+  {
+    "id": "163",
+    "full_name": "Daniel Ayala",
+    "guessing_name": "AYALA",
+    "nationality": "Spain",
+    "position": "Defender",
+    "first_season": "2009"
+  },
+  {
+    "id": "164",
+    "full_name": "Albert Riera",
+    "guessing_name": "RIERA",
+    "nationality": "Spain",
+    "position": "Midfielder",
+    "first_season": "2008"
+  },
+  {
+    "id": "165",
+    "full_name": "Mark Gonzalez",
+    "guessing_name": "GONZALEZ",
+    "nationality": "Chile",
+    "position": "Midfielder",
+    "first_season": "2006"
+  },
+  {
+    "id": "166",
+    "full_name": "Damien Plessis",
+    "guessing_name": "PLESSIS",
+    "nationality": "France",
+    "position": "Midfielder",
+    "first_season": "2007"
+  },
+  {
+    "id": "167",
+    "full_name": "Krisztian Nemeth",
+    "guessing_name": "NEMETH",
+    "nationality": "Hungary",
+    "position": "Forward",
+    "first_season": "2008"
+  },
+  {
+    "id": "168",
+    "full_name": "Sebastian Leto",
+    "guessing_name": "LETO",
+    "nationality": "Argentina",
+    "position": "Midfielder",
+    "first_season": "2007"
+  },
+  {
+    "id": "169",
+    "full_name": "Gabriel Paletta",
+    "guessing_name": "PALETTA",
+    "nationality": "Argentina",
+    "position": "Defender",
+    "first_season": "2006"
+  },
+  {
+    "id": "170",
+    "full_name": "Fernando Morientes",
+    "guessing_name": "MORIENTES",
+    "nationality": "Spain",
+    "position": "Forward",
+    "first_season": "2005"
+  },
+  {
+    "id": "171",
+    "full_name": "Scott Carson",
+    "guessing_name": "CARSON",
+    "nationality": "England",
+    "position": "Goalkeeper",
+    "first_season": "2005"
+  },
+  {
+    "id": "172",
+    "full_name": "Chris Kirkland",
+    "guessing_name": "KIRKLAND",
+    "nationality": "England",
+    "position": "Goalkeeper",
+    "first_season": "2001"
+  },
+  {
+    "id": "173",
+    "full_name": "Stephen Warnock",
+    "guessing_name": "WARNOCK",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "2004"
+  },
+  {
+    "id": "174",
+    "full_name": "Florent Sinama Pongolle",
+    "guessing_name": "PONGOLLE",
+    "nationality": "France",
+    "position": "Forward",
+    "first_season": "2003"
+  },
+  {
+    "id": "175",
+    "full_name": "Anthony Le Tallec",
+    "guessing_name": "LETALLEC",
+    "nationality": "France",
+    "position": "Forward",
+    "first_season": "2003"
+  },
+  {
+    "id": "176",
+    "full_name": "Igor Biscan",
+    "guessing_name": "BISCAN",
+    "nationality": "Croatia",
+    "position": "Midfielder",
+    "first_season": "2000"
+  },
+  {
+    "id": "177",
+    "full_name": "Djimi Traore",
+    "guessing_name": "TRAORE",
+    "nationality": "Mali",
+    "position": "Defender",
+    "first_season": "1999"
+  },
+  {
+    "id": "178",
+    "full_name": "Josemi",
+    "guessing_name": "JOSEMI",
+    "nationality": "Spain",
+    "position": "Defender",
+    "first_season": "2004"
+  },
+  {
+    "id": "179",
+    "full_name": "Antonio Nunez",
+    "guessing_name": "NUNEZ",
+    "nationality": "Spain",
+    "position": "Midfielder",
+    "first_season": "2004"
+  },
+  {
+    "id": "180",
+    "full_name": "Mauricio Pellegrino",
+    "guessing_name": "PELLEGRINO",
+    "nationality": "Argentina",
+    "position": "Defender",
+    "first_season": "2005"
+  },
+  {
+    "id": "181",
+    "full_name": "Jan Kromkamp",
+    "guessing_name": "KROMKAMP",
+    "nationality": "Netherlands",
+    "position": "Defender",
+    "first_season": "2006"
+  },
+  {
+    "id": "182",
+    "full_name": "El Hadji Diouf",
+    "guessing_name": "DIOUF",
+    "nationality": "Senegal",
+    "position": "Forward",
+    "first_season": "2002"
+  },
+  {
+    "id": "183",
+    "full_name": "Salif Diao",
+    "guessing_name": "DIAO",
+    "nationality": "Senegal",
+    "position": "Midfielder",
+    "first_season": "2002"
+  },
+  {
+    "id": "184",
+    "full_name": "Bruno Cheyrou",
+    "guessing_name": "CHEYROU",
+    "nationality": "France",
+    "position": "Midfielder",
+    "first_season": "2002"
+  },
+  {
+    "id": "185",
+    "full_name": "Jari Litmanen",
+    "guessing_name": "LITMANEN",
+    "nationality": "Finland",
+    "position": "Forward",
+    "first_season": "2001"
+  },
+  {
+    "id": "186",
+    "full_name": "Nicolas Anelka",
+    "guessing_name": "ANELKA",
+    "nationality": "France",
+    "position": "Forward",
+    "first_season": "2001"
+  },
+  {
+    "id": "187",
+    "full_name": "Nick Barmby",
+    "guessing_name": "BARMBY",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "2000"
+  },
+  {
+    "id": "188",
+    "full_name": "Christian Ziege",
+    "guessing_name": "ZIEGE",
+    "nationality": "Germany",
+    "position": "Defender",
+    "first_season": "2000"
+  },
+  {
+    "id": "189",
+    "full_name": "Rigobert Song",
+    "guessing_name": "SONG",
+    "nationality": "Cameroon",
+    "position": "Defender",
+    "first_season": "1999"
+  },
+  {
+    "id": "190",
+    "full_name": "Titi Camara",
+    "guessing_name": "CAMARA",
+    "nationality": "Guinea",
+    "position": "Forward",
+    "first_season": "1999"
+  },
+  {
+    "id": "191",
+    "full_name": "Erik Meijer",
+    "guessing_name": "MEIJER",
+    "nationality": "Netherlands",
+    "position": "Forward",
+    "first_season": "1999"
+  },
+  {
+    "id": "192",
+    "full_name": "Brad Friedel",
+    "guessing_name": "FRIEDEL",
+    "nationality": "USA",
+    "position": "Goalkeeper",
+    "first_season": "1997"
+  },
+  {
+    "id": "193",
+    "full_name": "Vegard Heggem",
+    "guessing_name": "HEGGEM",
+    "nationality": "Norway",
+    "position": "Defender",
+    "first_season": "1998"
+  },
+  {
+    "id": "194",
+    "full_name": "Oyvind Leonhardsen",
+    "guessing_name": "LEONHARDSEN",
+    "nationality": "Norway",
+    "position": "Midfielder",
+    "first_season": "1997"
+  },
+  {
+    "id": "195",
+    "full_name": "Stig Inge Bjornebye",
+    "guessing_name": "BJORNEBYE",
+    "nationality": "Norway",
+    "position": "Defender",
+    "first_season": "1992"
+  },
+  {
+    "id": "196",
+    "full_name": "Bjorn Tore Kvarme",
+    "guessing_name": "KVARME",
+    "nationality": "Norway",
+    "position": "Defender",
+    "first_season": "1997"
+  },
+  {
+    "id": "197",
+    "full_name": "Dominic Matteo",
+    "guessing_name": "MATTEO",
+    "nationality": "Scotland",
+    "position": "Defender",
+    "first_season": "1993"
+  },
+  {
+    "id": "198",
+    "full_name": "Steve Harkness",
+    "guessing_name": "HARKNESS",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "1991"
+  },
+  {
+    "id": "199",
+    "full_name": "Neil Ruddock",
+    "guessing_name": "RUDDOCK",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "1993"
+  },
+  {
+    "id": "200",
+    "full_name": "John Scales",
+    "guessing_name": "SCALES",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "1994"
+  },
+  {
+    "id": "201",
+    "full_name": "Mark Wright",
+    "guessing_name": "WRIGHT",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "1991"
+  },
+  {
+    "id": "202",
+    "full_name": "Nigel Clough",
+    "guessing_name": "CLOUGH",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "1993"
+  },
+  {
+    "id": "203",
+    "full_name": "Barry Venison",
+    "guessing_name": "VENISON",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "1986"
+  },
+  {
+    "id": "204",
+    "full_name": "David Burrows",
+    "guessing_name": "BURROWS",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "1988"
+  },
+  {
+    "id": "205",
+    "full_name": "Mike Marsh",
+    "guessing_name": "MARSH",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1987"
+  },
+  {
+    "id": "206",
+    "full_name": "Mark Walters",
+    "guessing_name": "WALTERS",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1991"
+  },
+  {
+    "id": "207",
+    "full_name": "Istvan Kozma",
+    "guessing_name": "KOZMA",
+    "nationality": "Hungary",
+    "position": "Midfielder",
+    "first_season": "1992"
+  },
+  {
+    "id": "208",
+    "full_name": "Torben Piechnik",
+    "guessing_name": "PIECHNIK",
+    "nationality": "Denmark",
+    "position": "Defender",
+    "first_season": "1992"
+  },
+  {
+    "id": "209",
+    "full_name": "Paul Stewart",
+    "guessing_name": "STEWART",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1992"
+  },
+  {
+    "id": "210",
+    "full_name": "Michael Thomas",
+    "guessing_name": "THOMAS",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1991"
+  },
+  {
+    "id": "211",
+    "full_name": "Steve Staunton",
+    "guessing_name": "STAUNTON",
+    "nationality": "Ireland",
+    "position": "Defender",
+    "first_season": "1988"
+  },
+  {
+    "id": "212",
+    "full_name": "Ray Houghton",
+    "guessing_name": "HOUGHTON",
+    "nationality": "Ireland",
+    "position": "Midfielder",
+    "first_season": "1987"
+  },
+  {
+    "id": "213",
+    "full_name": "Gary Gillespie",
+    "guessing_name": "GILLESPIE",
+    "nationality": "Scotland",
+    "position": "Defender",
+    "first_season": "1983"
+  },
+  {
+    "id": "214",
+    "full_name": "Alan Kennedy",
+    "guessing_name": "KENNEDY",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "1978"
+  },
+  {
+    "id": "215",
+    "full_name": "Ray Kennedy",
+    "guessing_name": "KENNEDY",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1974"
+  },
+  {
+    "id": "216",
+    "full_name": "Jimmy Case",
+    "guessing_name": "CASE",
+    "nationality": "England",
+    "position": "Midfielder",
+    "first_season": "1975"
+  },
+  {
+    "id": "217",
+    "full_name": "David Fairclough",
+    "guessing_name": "FAIRCLOUGH",
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "1975"
+  },
+  {
+    "id": "218",
+    "full_name": "Phil Thompson",
+    "guessing_name": "THOMPSON",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "1972"
+  },
+  {
+    "id": "219",
+    "full_name": "Emlyn Hughes",
+    "guessing_name": "HUGHES",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "1967"
+  },
+  {
+    "id": "220",
+    "full_name": "Tommy Smith",
+    "guessing_name": "SMITH",
+    "nationality": "England",
+    "position": "Defender",
+    "first_season": "1963"
+  },{
+    "id": "221",
+    "full_name": "Florian Wirtz",
+    "guessing_name": "WIRTZ",
+    "nationality": "Germany",
+    "position": "Midfielder",
+    "first_season": "2025"
+  },
+  {
+    "id": "222",
+    "full_name": "Jeremie Frimpong",
+    "guessing_name": "FRIMPONG",
+    "nationality": "Netherlands",
+    "position": "Defender",
+    "first_season": "2025"
+  },
+  {
+    "id": "223",
+    "full_name": "Giorgi Mamardashvili",
+    "guessing_name": "MAMARDASHVILI",
+    "nationality": "Georgia",
+    "position": "Goalkeeper",
+    "first_season": "2025"
+  },
+  {
+    "id": "224",
+    "full_name": "Alexander Isak",
+    "guessing_name": "ISAK",
+    "nationality": "Sweden",
+    "position": "Forward",
+    "first_season": "2025"
+  },
+  {
+    "id": "225",
+    "full_name": "Giovanni Leoni",
+    "guessing_name": "LEONI",
+    "nationality": "Italy",
+    "position": "Defender",
+    "first_season": "2025"
+  },
+  {
+    "id": "226",
+    "full_name": "Hugo Ekitike",
+    "guessing_name": "EKITIKE",
+    "nationality": "France",
+    "position": "Forward",
+    "first_season": "2025"
+  },
+  {
+    "id": "227",
+    "full_name": "Milos Kerkez",
+    "guessing_name": "KERKEZ",
+    "nationality": "Hungary",
+    "position": "Defender",
+    "first_season": "2025"
+  },
+  {
+    "id": "228",
+    "full_name": "Freddie Woodman",
+    "guessing_name": "WOODMAN",
+    "nationality": "England",
+    "position": "Goalkeeper",
+    "first_season": "2025"
+  },
+  {
+    "id": "229",
+    "full_name": "Rio Ngumoha",
+    "guessing_name": "NGUMOHA", 
+    "nationality": "England",
+    "position": "Forward",
+    "first_season": "2024"
   }
 ]

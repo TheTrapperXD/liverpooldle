@@ -101,3 +101,38 @@ button {
   border-radius: 5px;
   font-weight: bold;
 }
+/* HINT STYLES */
+.hint-container {
+  height: 40px; /* Keeps space so grid doesn't jump */
+  margin-bottom: 10px;
+}
+
+.hint-btn {
+  background: #00985f; /* Liverpool Green (Away Kit style) */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: transform 0.2s;
+}
+
+.hint-btn:hover {
+  transform: scale(1.05);
+  background: #007f50;
+}
+
+.hint-text {
+  color: #f5c542; /* Gold color */
+  font-weight: bold;
+  font-size: 1.1rem;
+  animation: fadeIn 0.5s;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
