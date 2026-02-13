@@ -179,7 +179,7 @@ function App() {
         alt="Ko-fi" 
         className="kofi-img" 
       />
-      <span>Support Me</span>
+      <span>Buy Me A Coffee</span>
     </a>
 
     </div>
