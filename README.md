@@ -15,4 +15,6 @@ There will be no spacebar in Liverpooldle so if the word is Van Dijk, the answer
 ## I like Liverpooldle so much! Can I make a donation?
 Sure! You can click the Kofi button and you will be redirected to my Kofi site to donate money.
 
+[Support Liverpooldle on Ko-fi](https://ko-fi.com/liverpooldle)
+
 "Thank you for the support!" - Darwin Nunez

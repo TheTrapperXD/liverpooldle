@@ -168,6 +168,19 @@ function App() {
           </div>
         </div>
       )}
+      <a 
+      href="https://ko-fi.com/liverpooldle" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="kofi-btn"
+    >
+      <img 
+        src="https://storage.ko-fi.com/cdn/cup-border.png" 
+        alt="Ko-fi" 
+        className="kofi-img" 
+      />
+      <span>Support Me</span>
+    </a>
 
     </div>
   )
