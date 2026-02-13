@@ -1,16 +1,18 @@
-# React + Vite
+# Liverpooldle
+Welcome to Liverpooldle, a Liverpool-inspired Wordle site that is made by a Liverpool fan.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is Version 1.0 of Liverpooldle.
 
-Currently, two official plugins are available:
+## What is Wordle?
+Wordle is a web-based word game. In the game, players have six attempts to guess a word, receiving feedback through colored tiles that indicate correct letters and their placement. In Liverpooldle's case, the word could be any Liverpool player. A single puzzle is released daily, with all players attempting to solve the same word.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How is Liverpooldle different from the original Wordle?
+Liverpooldle has a hint feature. With more than 200 players in the database, it can be difficult to guess some players. Hints can include the nationality, position, and first season. Also, you can guess words that don't have a meaning.
 
-## React Compiler
+## If a player's last name has two words, for example Van Dijk, what will be the answer?
+There will be no spacebar in Liverpooldle so if the word is Van Dijk, the answer will be VANDIJK. If the word is Mac Allister, the answer will be MACALLISTER.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## I like Liverpooldle so much! Can I make a donation?
+Sure! You can click the Kofi button and you will be redirected to my Kofi site to donate money.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+"Thank you for the support!" - Darwin Nunez
