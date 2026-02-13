@@ -1,5 +1,5 @@
 body {
-  background-color: #121213; /* Dark Mode */
+  background-color: #121213; 
   color: white;
   font-family: sans-serif;
   display: flex;
@@ -19,7 +19,7 @@ body {
   border: 2px solid #3a3a3c;
   margin: 0 3px;
   text-align: center;
-  line-height: 60px; /* Centers text vertically */
+  line-height: 60px; 
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;

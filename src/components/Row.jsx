@@ -2,8 +2,7 @@ import React from 'react'
 
 export default function Row({ guess, currentGuess, length }) {
 
-  // Case 1: Past Guess (It is an Array of Objects with colors)
-  // We check if it is an array to avoid crashing on strings
+  // previous guess
   if (guess && Array.isArray(guess)) {
     return (
       <div className="row">
@@ -15,28 +14,22 @@ export default function Row({ guess, currentGuess, length }) {
       </div>
     )
   }
-
-  // Case 2: Current Typing (It is a String)
+  // current guess
   if (currentGuess) {
     let letters = currentGuess.split('')
     
     return (
       <div className="row">
-        {/* Filled Boxes */}
         {letters.map((letter, i) => (
           <div key={i} className="tile filled">{letter}</div>
         ))}
-        
-        {/* Empty Boxes (Rest of the row) */}
-        {/* key={i + letters.length} ensures we don't have duplicate keys like '0' */}
         {[...Array(Math.max(0, length - letters.length))].map((_, i) => (
           <div key={i + letters.length} className="tile"></div>
         ))}
       </div>
     )
   }
-
-  // Case 3: Empty Row (Future turns)
+  // other row
   return (
     <div className="row">
       {[...Array(length || 5)].fill('').map((_, i) => (
