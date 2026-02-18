@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box; 
+}
+
 :root {
   --color-green: #538d4e;
   --color-yellow: #b59f3b;
@@ -25,7 +29,6 @@ body {
   margin: 0 auto;
 }
 
-/* row */
 .row {
   display: flex;
   justify-content: center;
@@ -99,7 +102,7 @@ button {
   border-radius: 5px;
   font-weight: bold;
 }
-/* hint */
+
 .hint-container {
   display: flex;
   justify-content: center;
@@ -181,4 +184,46 @@ h1.game-title {
 .kofi-btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(41, 171, 224, 0.4);
+}
+
+@media screen and (max-width: 600px) {
+  .game-title {
+    font-size: 1.5rem !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+
+  .game-container {
+    padding: 0 10px; 
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3px !important;
+  }
+
+  .tile {
+    flex: 1; 
+  
+    max-width: 38px; 
+  
+    aspect-ratio: 1 / 1; 
+    height: auto !important; 
+    
+    font-size: 1rem !important;
+    line-height: 1 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px !important;
+  }
+
+  .modal {
+    width: 90% !important;
+    padding: 20px !important;
+  }
 }
