@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import playerData from './data.json'
 import Grid from './components/Grid'
+import Keyboard from './components/Keyboard'
 import { getDailyPlayer } from './lib/daily'
 
 function App() {
@@ -85,6 +86,57 @@ function App() {
 
     setHint(`${label}: ${solution[selectedAttr]}`)
   }
+  const usedKeys = {}
+  guesses.forEach((guess) => {
+    guess.forEach((l) => {
+      const currentColor = usedKeys[l.key]
+      if (l.color === 'green') {
+        usedKeys[l.key] = 'green'
+        return
+      }
+      if (l.color === 'yellow' && currentColor !== 'green') {
+        usedKeys[l.key] = 'yellow'
+        return
+      }
+      if (l.color === 'grey' && currentColor !== 'green' && currentColor !== 'yellow') {
+        usedKeys[l.key] = 'grey'
+        return
+      }
+    })
+  })
+  const handleInput = (key) => {
+    if (isCorrect || guesses.length >= 6) {
+        return
+    }
+
+    if (key === 'Enter' || key === 'ENTER') {
+        if (currentGuess.length !== solution.guessing_name.length) {
+            return
+        }
+        const formatted = formatGuess()
+        setGuesses((prev) => [...prev, formatted])
+        setCurrentGuess('')
+        let isWin = true
+        formatted.forEach((l) => {
+            if (l.color !== 'green') isWin = false
+        })
+        if (isWin) {
+            setIsCorrect(true)
+        }
+        return
+    }
+
+    if (key === 'Backspace' || key === '⌫') {
+        setCurrentGuess((prev) => prev.slice(0, -1))
+        return
+    }
+    // regex
+    if (/^[A-Za-z]$/.test(key)) {
+        if (currentGuess.length < solution.guessing_name.length) {
+            setCurrentGuess((prev) => prev + key.toUpperCase())
+        }
+    }
+  }
 
   useEffect(() => {
     const handleKeyup = (event) => {
@@ -150,6 +202,7 @@ function App() {
         )}
         {hint && <p className="hint-text">{hint}</p>}
       </div>
+      <Keyboard usedKeys={usedKeys} onKeyPress={handleInput} />
       {isCorrect && (
         <div className="modal">
           <h2>YOU'LL NEVER WALK ALONE! 🔴</h2>
