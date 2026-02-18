@@ -161,10 +161,10 @@ function App() {
       )}
       {!isCorrect && guesses.length >= 6 && (
         <div className="modal">
-          <h2>Unlucky! 😔</h2>
+          <h2>Unlucky lad! 😔</h2>
           <p>The player was: <strong>{solution.full_name}</strong></p>
           <div className="next-game-timer">
-            <p>Next player available tomorrow!</p>
+            <p>Come back tomorrow!</p>
           </div>
         </div>
       )}
