@@ -213,7 +213,7 @@ function App() {
       <Keyboard usedKeys={usedKeys} onKeyPress={handleInput} />
       {isCorrect && (
         <div className="modal">
-          <h2>YOU'LL NEVER WALK ALONE! 🔴</h2>
+          <h2>YOU'LL NEVER WALK ALONE!</h2>
           <p>You guessed {solution.full_name}</p>
           <div className="next-game-timer">
             <p>Next player available tomorrow!</p>
