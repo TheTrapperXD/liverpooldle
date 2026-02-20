@@ -5,6 +5,14 @@ import Grid from './components/Grid'
 import Keyboard from './components/Keyboard'
 import { getDailyPlayer } from './lib/daily'
 
+async function hashGuess(guess) {
+  const SALT = "BRIDGEWIRTZ"; 
+  const msgBuffer = new TextEncoder().encode(guess.toUpperCase() + SALT);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
 function App() {
   const daily = getDailyPlayer(playerData)
   
