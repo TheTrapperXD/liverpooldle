@@ -1,8 +1,6 @@
 # Liverpooldle
 Welcome to Liverpooldle, a Liverpool-inspired Wordle site that is made by a Liverpool fan.
 
-This is Version 1.0 of Liverpooldle.
-
 ## What is Wordle?
 Wordle is a web-based word game. In the game, players have six attempts to guess a word, receiving feedback through colored tiles that indicate correct letters and their placement. In Liverpooldle's case, the word could be any Liverpool player. A single puzzle is released daily, with all players attempting to solve the same word.
 
