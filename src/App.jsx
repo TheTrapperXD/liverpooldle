@@ -1,3 +1,4 @@
+/* --- src/App.jsx --- */
 import { useState, useEffect } from 'react'
 import './App.css'
 import playerData from './data.json'
@@ -61,7 +62,30 @@ function App() {
     }))
   }, [guesses, isCorrect, solution.id, hint]) 
 
-  // Helper
+  // grid
+  const generateEmojiGridText = () => {
+    return guesses.map(guess => {
+      return guess.map(letter => {
+        if (letter.color === 'green') return '🟩'
+        if (letter.color === 'yellow') return '🟨'
+        return '⬛'
+      }).join('')
+    }).join('\n')
+  }
+  // share
+  const [shareStatus, setShareStatus] = useState('') 
+  const handleShare = () => {
+    const emojiGrid = generateEmojiGridText()
+    const score = isCorrect ? guesses.length : 'X'
+    const shareText = `Liverpooldle ${score}/6\n\n${emojiGrid}\n\nhttps://thetrapperxd.github.io/liverpooldle/`
+
+    navigator.clipboard.writeText(shareText).then(() => {
+      setShareStatus('Copied to clipboard!')
+      setTimeout(() => setShareStatus(''), 2000)
+    })
+  }
+  const [hideModal, setHideModal] = useState(false)
+  // Helper formatting guess
   const formatGuess = () => {
     let solutionArray = solution.guessing_name.split('')
     let formattedGuess = currentGuess.split('').map((l) => {
@@ -82,6 +106,8 @@ function App() {
 
     return formattedGuess
   }
+
+  // Handle Hint
   const revealHint = () => {
     const attributes = ['nationality', 'position', 'first_season']
     const fixedIndex = daily.dayIndex % attributes.length
@@ -94,6 +120,8 @@ function App() {
 
     setHint(`${label}: ${solution[selectedAttr]}`)
   }
+
+  // Keyboard state helper
   const usedKeys = {}
   guesses.forEach((guess) => {
     guess.forEach((l) => {
@@ -112,6 +140,8 @@ function App() {
       }
     })
   })
+
+  // Handle input logic
   const handleInput = (key) => {
     if (isCorrect || guesses.length >= 6) {
         return
@@ -146,52 +176,19 @@ function App() {
     }
   }
 
+  // Attach keyboard listeners
   useEffect(() => {
     const handleKeyup = (event) => {
-      const key = event.key
-      if (key === 'Enter') {
-        if (isCorrect) {
-          return
-        }
-        if (guesses.length >= 6) {
-          return
-        }
-        if (currentGuess.length !== solution.guessing_name.length) {
-          return
-        }
-        const formatted = formatGuess()
-        setGuesses((prev) => [...prev, formatted])
-        setCurrentGuess('')
-        let isWin = true
-        formatted.forEach((l) => {
-          if (l.color !== 'green') isWin = false
-        })
-
-        if (isWin) {
-          setIsCorrect(true)
-        }
-      }
-      if (key === 'Backspace') {
-        setCurrentGuess((prev) => prev.slice(0, -1))
-        return
-      }
-      if (/^[A-Za-z]$/.test(key)) { // regex
-        if (isCorrect) {
-          return 
-        }
-        if (guesses.length >= 6) {
-          return 
-        }
-        if (currentGuess.length < solution.guessing_name.length) {
-          setCurrentGuess((prev) => prev + key.toUpperCase())
-        }
-      }
+      handleInput(event.key); 
     }
 
     window.addEventListener('keyup', handleKeyup)
     return () => window.removeEventListener('keyup', handleKeyup)
     
   }, [currentGuess, guesses, solution, isCorrect])
+
+  // check
+  const isGameOver = isCorrect || guesses.length >= 6
 
   return (
     <div className="game-container">
@@ -202,6 +199,7 @@ function App() {
         guesses={guesses} 
         solutionLength={solution.guessing_name.length} 
       />
+      
       <div className="hint-container">
         {!hint && !isCorrect && (
           <button className="hint-btn" onClick={revealHint}>
@@ -210,38 +208,51 @@ function App() {
         )}
         {hint && <p className="hint-text">{hint}</p>}
       </div>
+      
       <Keyboard usedKeys={usedKeys} onKeyPress={handleInput} />
-      {isCorrect && (
-        <div className="modal">
-          <h2>YOU'LL NEVER WALK ALONE!</h2>
-          <p>You guessed {solution.full_name}</p>
-          <div className="next-game-timer">
-            <p>Next player available tomorrow!</p>
+      {isGameOver && !hideModal && (
+        <>
+          <div className="modal-scrim"></div>
+          
+          <div className="modal">
+            <button className="close-btn" onClick={() => setHideModal(true)}>
+              ✕
+            </button>
+            <div className="modal-content">
+              <h2>{isCorrect ? "YOU'LL NEVER WALK ALONE!" : "Unlucky lad! 😔"}</h2>
+              
+              <div className="recap-section">
+                <p className="recap-item">
+                  <strong>The answer was:</strong> {solution.full_name}
+                </p>
+                <p className="recap-item">
+                  <strong>Attempts:</strong> {isCorrect ? guesses.length : 'X'}/6
+                </p>
+              </div>
+              <div className="emoji-summary-container">
+                {generateEmojiGridText()}
+              </div>
+              <button className="share-btn" onClick={handleShare}>
+                SHARE RESULTS
+              </button>
+              {shareStatus && <p className="share-status">{shareStatus}</p>}
+            </div>
           </div>
-        </div>
-      )}
-      {!isCorrect && guesses.length >= 6 && (
-        <div className="modal">
-          <h2>Unlucky lad! 😔</h2>
-          <p>The player was: <strong>{solution.full_name}</strong></p>
-          <div className="next-game-timer">
-            <p>Come back tomorrow!</p>
-          </div>
-        </div>
+        </>
       )}
       <a 
-      href="https://ko-fi.com/liverpooldle" 
-      target="_blank" 
-      rel="noopener noreferrer"
-      className="kofi-btn"
-    >
-      <img 
-        src="https://storage.ko-fi.com/cdn/cup-border.png" 
-        alt="Ko-fi" 
-        className="kofi-img" 
-      />
-      <span>Buy Me A Coffee</span>
-    </a>
+        href="https://ko-fi.com/liverpooldle" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="kofi-btn"
+      >
+        <img 
+          src="https://storage.ko-fi.com/cdn/cup-border.png" 
+          alt="Ko-fi" 
+          className="kofi-img" 
+        />
+        <span>Buy Me A Coffee</span>
+      </a>
 
     </div>
   )
